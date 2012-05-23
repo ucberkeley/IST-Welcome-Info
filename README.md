@@ -3,6 +3,28 @@ Welcome to IST
 
 Below is some basic information for all IST employees.
 
+Creating SSH Keys
+------------------
+IST uses [Code@Berkeley](http://code.berkeley.edu) to hold its repositories.  Code@Berkeley uses public key
+authentication and key-based SSH login to authenticate users who are able to access these repositories.  The public
+and private keys can be generated on any OS.
+
+### Ubuntu
+1. Open up a terminal and type in
+
+        $ mkdir ~/.ssh  
+        $ chmod 700 ~/.ssh  
+        $ ssh-keygen -t rsa
+
+2. You can keep the keys in the selected directory and you can choose to create a passphrase or leave it blank.
+
+3. `ls` into your .ssh folder and search for your public key.  Open up a text editor and copy down the information
+in the public key.
+
+4. Go to [Code@Berkeley](http://code.berkeley.edu).  Log in with your CalNet credentials.  Go to "Manage SSH Public
+Keys" and click "New SSH Public Key".  Paste your public key information into the text box.  Make sure your key name
+matches the file name of the public key.
+
 Setting Up Ruby
 -----------------
 To allow us to be most flexible in using and testing with different versions of Ruby, you will want to use `rbenv`

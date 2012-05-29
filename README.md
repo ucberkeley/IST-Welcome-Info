@@ -201,10 +201,10 @@ What you want to change is that bottom line, making the method md5
 
 That should fix the Peer authentication error.
 
-###Change the Rails environment
+###Different Rails environment
 
 As noted above, you'll probably have different databases for development and running tests (and maybe production). In
-order to change which database you're using, you need to change the Rails environment. Run the following
+order to migrate the database into a different environment, run the following
 
     $ bundle exec rake environment RAILS_ENV=(new_environment) db:migrate
     

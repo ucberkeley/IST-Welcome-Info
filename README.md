@@ -124,7 +124,7 @@ This will make a postgres user on your machine, whose password we need to change
 
 to change to the postgres user, then
 
-    $ \password postgres
+    $ \passwd postgres
 
 to set its password.
 

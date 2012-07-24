@@ -71,7 +71,7 @@ easy to fork and contribute any changes back upstream.
 to install new versions of Ruby. To install 1.9.3-p194 for example, do the following
 once you set up ruby-build (below):
 
-        $ rbenv install 1.9.2-p290
+        $ rbenv install 1.9.3-p194
 
 6. Rebuild the shim binaries. You should do this any time you install
    a new Ruby binary (for example, when installing a new Ruby version,
@@ -140,12 +140,7 @@ To get pgadmin3 on your machine, simply use apt-get
 
     $ apt-get install pgadmin3
 
-Now start up pgadmin.
-
-*__Note__: We've had experience with pgadmin3 in Ubuntu 12 not appearing on the task bar, preventing you from selecting
-it when minimized or alt-tabbing to it. If this occurs, restart pgadmin or your system.*
-
-With pgadmin running, click the power-plug button to make a connection to your server and fill out the following
+Now start up pgadmin. With pgadmin running, click the power-plug button to make a connection to your server and fill out the following
 fields:
 
     Name: (something like postgres-server, as this is your server for your entire machine)
